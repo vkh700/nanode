@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="tk.Frame" id="frame1">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout manager="pack">
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="font">TkHeadingFont</property>
+        <property name="text" translatable="yes">NANOde</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button4">
+        <property name="command" type="command" cbtype="simple">recovery</property>
+        <property name="image">recovery.png</property>
+        <property name="text" translatable="yes">button4</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button5">
+        <property name="command" type="command" cbtype="simple">cmd</property>
+        <property name="image">term.png</property>
+        <property name="text" translatable="yes">button4</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button6">
+        <property name="command" type="command" cbtype="simple">power</property>
+        <property name="image">power.png</property>
+        <property name="text" translatable="yes">button4</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

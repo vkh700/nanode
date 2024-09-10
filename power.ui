@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="ttk.Frame" id="frame1">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout manager="pack">
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="ttk.Label" id="label1">
+        <property name="text" translatable="yes">Power menu</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button1">
+        <property name="command" type="command" cbtype="simple">shutdown</property>
+        <property name="text" translatable="yes">Shutdown</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button2">
+        <property name="command" type="command" cbtype="simple">restart</property>
+        <property name="text" translatable="yes">Restart</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button3">
+        <property name="command" type="command" cbtype="simple">exit</property>
+        <property name="text" translatable="yes">Exit</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
